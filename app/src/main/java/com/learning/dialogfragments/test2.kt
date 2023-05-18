@@ -1,5 +1,3 @@
 package com.learning.dialogfragments
 
-class test1 {
-
-}
+data class test2(val id:Int)
