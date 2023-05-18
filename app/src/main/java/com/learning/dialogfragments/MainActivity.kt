@@ -2,6 +2,7 @@ package com.learning.dialogfragments
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.util.Log
 import android.widget.Button
 import android.widget.TextView
 import androidx.fragment.app.FragmentManager
@@ -29,5 +30,6 @@ class MainActivity : AppCompatActivity() {
     fun getUserData(userName:String,userAge:Int){
         name.text = "Name: $userName"
         age.text = "Age: ${userAge}"
+        Log.e("","")
     }
 }
